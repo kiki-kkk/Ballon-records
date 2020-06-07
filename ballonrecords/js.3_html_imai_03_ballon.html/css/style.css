@@ -1,0 +1,187 @@
+    /* ここから下に記載していく */
+    .header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:30px;
+    font-weight: bold;
+    ;}
+    .header_nav{
+        display: flex;
+        flex: 30px;justify-content: space-around;align-content: center;
+                text-align: right;
+        }
+        .header_nav li{
+        display:flex ;
+        margin-left: 40px;
+        }
+    .maintitle{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 60px;
+    font-weight: bold;
+    height: 200px;
+    color:white;
+ background:url("https://www.anjo-tanabata.jp/midokoro/files/2017/08/balloon_01.jpg")
+;
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+margin: auto;
+    }
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.concept_text{
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+ h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+} 
+.souheioyamada{
+margin-left: 20%;
+padding-top: 20px;
+}
+.souheititle{
+font-size: 25px;
+font-weight: bold;
+
+}
+.souheitext{
+font-size: 20px;
+}
+.sunnycarwash{
+margin-left: 60%;
+padding-top: 20px;
+}
+.sunnytitle{
+    font-size: 25px;
+    font-weight: bold;
+    }
+.sunnytext{
+    font-size: 20px;
+    }
+.pont{
+    margin-left: 20%
+}
+.ponttitle{
+    font-size: 25px;
+    font-weight: bold;
+    }
+.ponttext{
+    font-size: 20px;
+    }
+    
+            
+            /*  */
+ 
+
+メインビジュアル
+.mainvisual{
+height: 200px;
+ background:url("../img/mainbg.png"); 
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+margin: auto;
+
+}
+h2.mainvisual{
+    font-size: 50px;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    line-height: 80px;
+}
+.newstitle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;  
+    margin-bottom: 50px;
+}
+ .wrapper{ 
+    display: flex;
+ flex-direction: row;
+	justify-content: center;
+	list-style: none;
+	/* margin: 0 0 40px -24px;
+    padding-left: 0;   */
+    
+ } 
+.newsbox{
+
+    flex: 5%;
+        box-sizing: border-box;
+        max-width: 20%;
+        padding:30px;
+    }
+
+
+
+.news1picture{
+width: 10%;
+height: 35%;
+/* padding-left: 50px; */
+}
+.news1texttitle{
+    font-size: 20px;
+    font-weight: bold;
+    /* padding-left: 30px;   */
+}
+.news1text{
+font-size: 18px;
+/* padding-left: 30px;   */
+}
+.news2picture{
+    width: 10%;
+    height: 30%;
+    }
+    .news2texttitle{
+        font-size: 20px;
+        font-weight: bold;  
+    }
+    .news2text{
+    font-size: 18px;
+    }
+    .news3picture{
+        width: 10%;
+        height: 30%;
+        }
+        .news3texttitle{
+            font-size: 20px;
+            font-weight: bold;  
+        }
+        .news3text{
+        font-size: 18px;
+        }
+
+.acsesstitle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;  
+    margin-bottom: 30px;    
+}
+.acsessintext{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;  
+    margin-bottom: 30px;  
+}
+.accessmap{
+display:flex;
+justify-content: center;
+}
